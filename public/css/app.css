@@ -1,0 +1,42 @@
+.avatar {
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+	background: url("/images/75x200/avatar.jpg") no-repeat;
+	font-size: 0px;
+	line-height: 0px;
+	padding: 0;
+	
+}
+
+#content img {
+	float: left;
+	margin: 0 10px 10px 0;
+	border-radius: 15px;
+}
+
+body.post {
+	padding-top: 70px;
+}
+
+body.post nav.navbar-fixed-top {
+	background-color: #404040;
+}
+
+body.post .navbar-custom.is-fixed .navbar-brand {
+	color: #FFFFFF;
+}
+
+body.post .navbar-custom.is-fixed .nav li a {
+	color: #FFFFFF;
+}
+
+body.post h1 {
+	margin-bottom: 0;
+}
+
+body.post .meta {
+	font-style: italic;
+	color: #999;
+	font-size: 18px;
+}
