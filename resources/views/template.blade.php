@@ -2,7 +2,7 @@
 <html lang="en">
 
 @include('partials/header')
-
+ 
 <body class="{{$page_type or 'site'}}">
 
 	@include('partials/navigation')

@@ -7,17 +7,16 @@
     <meta name="author" content="">
 
     <title>Patrick Stephan{{ isset($page_title) ? ' :: '.$page_title : '' }}</title>
-
-
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/clean-blog.min.css" rel="stylesheet">
-    <link href="/css/app.css" rel="stylesheet">
+    
+    <style>
+	    {!! App\Asset::inject('css/bootstrap.min.css') !!}
+	    {!! App\Asset::inject('css/clean-blog.min.css') !!}
+	    {!! App\Asset::inject('css/app.css') !!}
+	    {!! App\Asset::inject('http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic') !!}
+	    {!! App\Asset::inject('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800') !!}
+	</style>
 	
-	
-    <!-- Custom Fonts -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     
     
     <!-- Favicon -->

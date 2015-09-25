@@ -36,6 +36,8 @@
     </div>
 </footer>
 
-<script src="/js/jquery.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/clean-blog.min.js"></script>
+<script>
+	{!! App\Asset::inject('js/jquery.js') !!}
+	{!! App\Asset::inject('js/bootstrap.min.js') !!}
+	{!! App\Asset::inject('js/clean-blog.min.js') !!}
+</script>

@@ -47,7 +47,9 @@ class Document {
 			return self::makeModel($post);
 		});
 		
-		return $posts;
+		return $posts->sortByDesc(function($post){
+			return $post->last_modified;
+		});
 		
 	}
 	
